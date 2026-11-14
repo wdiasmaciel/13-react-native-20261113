@@ -1,11 +1,11 @@
 import { View, Text, StyleSheet } from 'react-native';
 
-export default function Home() {
+export default function Configuracao() {
   return (
     <View style={styles.container}>
-      <Text style={styles.titulo}>Home Page</Text>
+      <Text style={styles.titulo}>Minha Configuração</Text>
       <View style={styles.separador} />
-      <Text>Primeira aba do aplicativo.</Text>
+      <Text>Terceira aba do aplicativo.</Text>
     </View>
   );
 }
@@ -26,7 +26,7 @@ const styles = StyleSheet.create({
     height: 1,
     width: '80%',
     borderWidth: 1,
-    borderColor: 'red',
-    backgroundColor: 'red',
+    borderColor: 'blue',
+    backgroundColor: 'blue',
   },
 });
